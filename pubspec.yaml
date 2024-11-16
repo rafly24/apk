@@ -1,0 +1,42 @@
+
+name: manajement_kost
+description: "A new Flutter project."
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+version: 1.0.0+1
+environment:
+  sdk: '>=3.2.6 <4.0.0'
+
+dependencies:
+  image_picker: ^0.8.5+3
+
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  get: ^4.6.6
+  url_launcher: ^6.3.1
+  google_sign_in: ^6.2.1
+  firebase_auth: ^5.3.1
+  firebase_core: ^3.6.0
+  firebase_storage: ^12.3.4
+  cloud_firestore: ^5.4.4
+  shared_preferences: ^2.3.2
+  font_awesome_flutter: ^10.7.0
+  table_calendar: ^3.1.2
+  flutter_sound: ^9.17.0
+  path_provider: ^2.1.5
+  permission_handler: ^11.3.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^4.0.0
+
+flutter:
+  assets:
+  - assets/R_K_alphabet.jpeg
+  - assets/kamar1.jpeg
+  - assets/kamar2.jpeg
+  - assets/kamar3.jpeg
+  uses-material-design: true
